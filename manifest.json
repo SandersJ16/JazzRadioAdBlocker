@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "JazzRadioAdBlocker",
+  "description": "Stops ads from interupting music on JazzRadio.com",
+  "version": "1.0.0",
+
+  "browser_action": {
+    "default_icon": "JR.png",
+    //"default_popup": "popup.html",
+    "default_title": "Jazz Radio Ad Blocker"
+  },
+
+  "content_scripts":[
+    {
+      "matches": [
+        "*://*.jazzradio.com/*"
+      ],
+      "js": ["stop_ads.js"]
+    }
+  ]
+}
