@@ -16,7 +16,7 @@
       "matches": [
         "*://*.jazzradio.com/*"
       ],
-      "js": ["stop_ads.js"]
+      "js": ["jquery-3.2.0.min.js", "stop_ads.js"]
     }
   ]
 }
