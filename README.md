@@ -1,2 +1,2 @@
 # JazzRadioAdBlocker
-This is a chroome plugin that, stops ads from playing on JazzRadio.com.
+This is a chrome plugin that, stops ads from playing on JazzRadio.com.
